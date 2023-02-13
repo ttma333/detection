@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     'images',
     'modelmanager',
     'users',
+    'dashboard',
 
 
     #### Third Party Apps #####

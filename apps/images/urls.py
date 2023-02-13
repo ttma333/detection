@@ -25,6 +25,4 @@ urlpatterns = [
     path('<int:imgset_pk>/delete_image/<int:pk>/', views.ImagesDeleteUrl.as_view(),
          name='image_delete_url'),
     
-    path('<int:pk>/imageset/', views.ImageSetDetailView.as_view(),
-         name='imageset_all'),
 ]

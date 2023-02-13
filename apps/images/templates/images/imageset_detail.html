@@ -23,7 +23,6 @@
             <a href="{% url 'images:imageset_update_url' imageset.id %}" class="btn btn-outline-info btn-sm">Update ImageSet</a>
             {% if imageset.images.count > 0 %}
                 <a href="{% url 'images:images_list_url' imageset.id %}" class="btn btn-outline-info btn-sm">View Images</a>
-                <a href="{% url 'images:imageset_all' imageset.id %}" class="btn btn-outline-info btn-sm">detect All</a>
             {% endif %}
         {% elif imageset.public and imageset.images.count > 0 %}
             <a href="{% url 'images:images_list_url' imageset.id %}" class="btn btn-outline-info btn-sm">View Images</a>

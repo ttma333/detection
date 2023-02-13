@@ -31,8 +31,7 @@ urlpatterns = [
     # path('croppedimages/', include("croppedimages.urls", namespace="croppedimages")),
     path('images/', include("images.urls", namespace="images")),
     # path('test/', include("test_app.urls", namespace="test_app")),
-
-
+    path('dashboard/', include("dashboard.urls", namespace="dashboard")),
 ]
 
 if settings.DEBUG:
