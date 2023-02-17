@@ -1,3 +1,6 @@
-from django.db import models
+import os
 
-# Create your models here.
+def DeleteAllFiles(filePath):
+    if os.path.exists(filePath):
+        for file in os.scandir(filePath):
+            os.remove(file.path)
