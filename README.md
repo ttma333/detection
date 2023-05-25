@@ -72,3 +72,6 @@ Create ImageSet
 ## Django starter template used
 
 [DjangoAdvancedBoilerplate](https://github.com/CodingMantras/DjangoAdvancedBoilerplate)
+
+## pdf
+반도체 불량 검출 솔루션.pdf
