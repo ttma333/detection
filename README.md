@@ -74,4 +74,4 @@ Create ImageSet
 [DjangoAdvancedBoilerplate](https://github.com/CodingMantras/DjangoAdvancedBoilerplate)
 
 ## pdf
-반도체 불량 검출 솔루션.pdf
+[반도체 불량 검출 솔루션.pdf](https://github.com/ttma333/detection/files/11568592/default.pdf)
